@@ -23,7 +23,7 @@
     padding-top: 56%;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-    background: $black no-repeat center center; 
+    background: $black no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -85,6 +85,12 @@
         color: $medium-gray;
         color: var(--theme-secondary-color, $black);
         }
+    }
+    h4{
+      margin:0;
+      padding:0;
+      font-size: 0.5em;
+      line-height:1.6;
     }
     .ltag__link__taglist{
       margin:0;
